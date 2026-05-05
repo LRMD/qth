@@ -1,1 +1,42 @@
-<!-- Įdomu? parašyk Sauliui LY1VP! --><!DOCTYPE html><html> <head> <meta name="keywords" content="."> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /> <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" /> <script type="text/javascript" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script> <link rel="stylesheet" href="style.css" /> <title> Surask savo QTH. WWL ir WAL </title> <script type="text/javascript" src="app.js"></script> </head> <body> <div id="map_canvas"></div> <div id="closer"></div> <div id="bar"> <form id="locform"> <p> Įvesk WWL ar WAL kvadratą: </p> <p> <input size="6" id="loc" maxlength="6" name="loc" value=""> <input type="submit" value="Rask!"> </p> </form> <div id="barin"> </div> <div id="bariner"> </div> <p id="brn"> <label for="chWWL"> WWL: </label> <input type="checkbox" id="chWWL" checked="checked"> &nbsp; <label for="chWAL"> WAL: </label> <input type="checkbox" id="chWAL" checked="checked"> &nbsp; <label for="chALT"> Aukščiai: </label> <input type="checkbox" id="chALT" checked="checked"> </p> </div> <div id="bar2"> <div id="bar2in"> skaičiuojama... </div> <div id="bar2iner"> </div> <div id="bar2over"> </div> </div> </body></html>
+<!-- Įdomu? parašyk Sauliui LY1VP! -->
+<!-- latest updates by Simon LY2EN -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" content=".">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+	<script type="text/javascript" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<link rel="stylesheet" href="style.css" />
+	<title> Surask savo QTH. WWL ir WAL </title>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div id="map_canvas"></div>
+	<div id="closer"></div>
+	<div id="bar">
+		<form id="locform">
+			<p> Įvesk WWL ar WAL kvadratą: </p>
+			<p> <input size="6" id="loc" maxlength="6" name="loc" value="">
+				<input type="submit" value="Rask!">
+			</p>
+		</form>
+		<div id="barin"> </div>
+		<div id="bariner"> </div>
+		<p id="brn">
+			<label for="chWWL"> WWL: </label>
+			<input type="checkbox" id="chWWL" checked="checked"> &nbsp;
+			<label for="chWAL"> WAL: </label>
+			<input type="checkbox" id="chWAL" checked="checked"> &nbsp;
+			<label for="chALT"> Aukščiai: </label>
+			<input type="checkbox" id="chALT" checked="checked">
+		</p>
+	</div>
+	<div id="bar2">
+		<div id="bar2in"> skaičiuojama... </div>
+		<div id="bar2iner"> </div>
+		<div id="bar2over"> </div>
+	</div>$
+</body>
+</html>
